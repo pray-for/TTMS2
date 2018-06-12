@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout -->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.example.zhangjiawen.ttms2.PersonInformationActivity">-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.example.zhangjiawen.ttms2.PersonInformationActivity"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#ffffff"
+android:orientation="vertical" >
+
+
+<TextView
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="25dp"
+    android:text="员工信息" />
+
+
+
+<TextView
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:text="姓名：张三" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:text="年龄：25" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:text="性别：男" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:text="工作时间：1年" />
+
+
+    <Button
+        android:id="@+id/person_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:text="Next"
+        android:textColor="#fff"
+        android:background="@drawable/bt_shape"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
